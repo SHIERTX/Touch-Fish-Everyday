@@ -15,7 +15,7 @@ class App extends React.Component {
         this.state = {
             workingData: [
                 {
-                    key: "今日代码时长",
+                    key: "今日码字时长",
                     value: "loading"
                 },
                 {
@@ -51,7 +51,7 @@ class App extends React.Component {
                 this.setState({
                     workingData: [
                         {
-                            key: "今日代码时长",
+                            key: "今日码字时长",
                             value: _data.text
                         },
                         {
